@@ -1,0 +1,21 @@
+{
+  "name": "discord_chat",
+  "version": "1.0.0",
+  "description": "Discord bot that bridges Discord threads with Claude Code CLI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node setup.js",
+    "build:exe": "node build-installer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.25.1"
+  },
+  "devDependencies": {
+    "@yao-pkg/pkg": "^6.5.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "channelId": "YOUR_CHANNEL_ID",
+  "allowedUserId": "YOUR_DISCORD_USER_ID",
+  "sessionTimeoutMs": 86400000,
+  "aliases": {
+    "myproject": "C:\\path\\to\\your\\project"
+  }
+}
